@@ -20,10 +20,10 @@ new Chart(ctx, {
     }
 });
 
-var two = document.getElementById('pieChart');
+var two = document.getElementById('barChart');
 
 new Chart(two, {
-    type: 'pie',
+    type: 'bar',
     data: {
       labels: ["Taiwan", "Korea", "Japan", "Indonesia", "Philippines", "China", "Vietnam"],
       datasets: [
