@@ -1,11 +1,32 @@
-h1{
+body{
+  margin: 20px;
+}
 
+.ramenBG{
+  background-image: url('images/betterRamen.gif');
+  background-size: cover;
+}
+
+h1{
+  font-family: 'Trispace', sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 60px;
+  padding-top: 400px;
+  padding-bottom: 400px;
 }
 h2{
-
+  font-family: 'Trispace', sans-serif;
+  font-size: 40px;
+}
+p{
+  font-family: 'Trispace', sans-serif;
+  font-size: 20px;
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 .container{
-  border-style: solid;
   padding: 20px;
   margin: 20px;
 }

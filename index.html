@@ -6,6 +6,7 @@
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <title>Ramen: Polls and Rating</title>
  <link rel="stylesheet" href="main.css">
+ <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@500&display=swap" rel="stylesheet">
 </head>
 
 
@@ -13,23 +14,24 @@
 
 <!--  -->
 <!--Title-->
-<h1> Data about instant ramen </h1>
 
 <center>
+
+<div class="ramenBG">
+  <h1> DATA ABOUT INSTANT RAMEN </h1>
+</div>
+
 <p> Ramen can be enjoyed in many ways: In a bowl or a cup, with chopsticks or a fork, slurping or sipping, at a restaurant or at home. Below are data-sets transformed into an interactive and friendly visualization about the most beloved way to eat ramen -- at home and instant. <p>
-</center>
 
 <!--Poll Data-->
 <h2>In what form is Instant-Ramen enjoyed the most? </h2>
 
 <div class="container">
-  <center>
     <p> Instant-ramen comes in packs, bowls, cups, and trays. This poll shows that people enjoy eating ramen out of packs the best. Then bowls, then cups, and then trays. </p>
 
     <div class="chart">
       <canvas id="donutChart" width="800" height="400"></canvas>
     </div>
-  </center>
 </div>
 
 <!-- Ramen By Country -->
@@ -42,6 +44,7 @@
 <!-- Rankings over Time-->
 
 
+</center>
 
 <!-- Scripts  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
