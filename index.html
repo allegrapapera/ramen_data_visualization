@@ -11,41 +11,39 @@
 
 <body>
 
-  <!--  -->
-  <!--Title-->
-  <h1> Data about instant ramen </h1>
+<!--  -->
+<!--Title-->
+<h1> Data about instant ramen </h1>
 
-  <div class="central">
-    <p> prob some image and then some exposition about ramen <p>
-  </div>
+<center>
+<p> Ramen can be enjoyed in many ways: In a bowl or a cup, with chopsticks or a fork, slurping or sipping, at a restaurant or at home. Below are data-sets transformed into an interactive and friendly visualization about the most beloved way to eat ramen -- at home and instant. <p>
+</center>
+
+<!--Poll Data-->
+<h2>In what form is Instant-Ramen enjoyed the most? </h2>
+
+<div class="container">
+  <center>
+    <p> Instant-ramen comes in packs, bowls, cups, and trays. This poll shows that people enjoy eating ramen out of packs the best. Then bowls, then cups, and then trays. </p>
+
+    <div class="chart">
+      <canvas id="donutChart" width="800" height="400"></canvas>
+    </div>
+  </center>
+</div>
+
+<!-- Ramen By Country -->
 
 
-  <!--Poll Data-->
-  <h2> What do the Polls say about Ramen? </h2>
-
-  <div class="central">
-    <p> blah blah comes in many sizes/forms blah popularity of trays/bowl/cup and such </p>
-  </div>
-
-  <div class="right">
-    <canvas id="donutChart" width="800" height="400"></canvas>
-  </div>
-
-  <div class="central">
-    <p> what about best country to get ur ramen from???? </p>
-  </div>
 
 
-  <div class="left">
-    <canvas id="barChart" width="800" height="400"></canvas>
-  </div>
 
-  <div class="central">
-    <p> interestingly it seems like blah blah blah blah blah </p>
-  </div>
 
-  <!--  -->
+<!-- Rankings over Time-->
 
+
+
+<!-- Scripts  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
   <script src="script.js"></script>
 </body>
