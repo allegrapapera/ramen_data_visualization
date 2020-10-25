@@ -18,7 +18,7 @@
 <center>
 
 <div class="ramenBG">
-  <h1> DATA ABOUT INSTANT RAMEN </h1>
+  <h1> INSTANT RAMEN DATA </h1>
 </div>
 
 <p> Ramen can be enjoyed in many ways: In a bowl or a cup, with chopsticks or a fork, slurping or sipping, at a restaurant or at home.
@@ -47,21 +47,59 @@
 
 <!-- Ramen By Country -->
 
+<h2> Fan Favorite Ramen Brands </h2>
 
+<p> The Ramen Rater conducted another poll, asking fellow ramen fanatics what their favorite Korean instant ramen brand was.
+  The overwhelming winner was Nongshin ramen. </p>
 
+<canvas id="polar-chart" width="800" height="450"></canvas>
 
+<p> Click on each image to learn more about some favorite ramen brands!</p>
 
+<div class="container">
+
+<a href = "javascript: changeText(1);">
+    <img src = "images/shin.jpg" width = 300 height = 300/>
+</a>
+<a href = "javascript: changeText(2);">
+    <img src = "images/paldo.jpg" width = 300 height = 300/>
+</a>
+<a href = "javascript: changeText(3);">
+    <img src = "images/samyang.jpg" width = 300 height = 300/>
+</a>
+
+<p id="change"></p>
+
+</div>
 
 
 <!-- Rankings over Time-->
 
+<h2> The Ramen Ranker's Yearly 10 Ten </h2>
+
+<p> The ramen ranker updates his top ten instant ramen list every year! Click the buttons below to see the rank of these 10 ramen brands change over the years! </p>
+
+
+<button type = "button" id = "backButton" onclick = "backButton()"> Back</button>
+<button type = "button" id = "nextButton" onclick = "nextButton()"> Next</button>
+<canvas id="line" width="800" height="450" ></canvas>
+
+
+<div class="ramenBG2">
+  <h3> Go and get some ramen! </h3>
+</div>
+
+
 
 </center>
+
+
 
 <!-- Scripts  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
   <script src="script.js"></script>
 </body>
+
 
 
 
