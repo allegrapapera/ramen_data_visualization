@@ -282,12 +282,24 @@ new Chart (linechart9, {
 });
 
 var chartArray = [linechart1, linechart2, linechart3, linechart4, linechart5, linechart6, linechart7, linechart8, linechart9];
-var index;
+var index = 0;
 
-startButton() {
-index = 0;
+function backButton() {
+if (index > 0) {
+  index--;
+  document.getElementById(chartArray[index+1].id).style.visibility = "hidden";
+  document.getElementsByName("lineChart").id = chartArray[index].id;
+  document.getElementById(chartArray[index].id).style.visibility = "visible";
+  console.log(chartArray[index].id);
+  }
 }
 
 function nextButton() {
-  index++;
+  if (index < chartArray.length-1) {
+    index++;
+    document.getElementById(chartArray[index-1].id).style.visibility = "hidden";
+    document.getElementsByName("lineChart").id = chartArray[index].id;
+    document.getElementById(chartArray[index].id).style.visibility = "visible";
+    console.log(chartArray[index].id);
+  }
 }
